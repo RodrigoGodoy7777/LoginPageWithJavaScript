@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Anek Latin", sans-serif;
+}
+
+body {
+  background: rgb(0, 0, 22);
+  background: linear-gradient(354deg, rgb(0, 0, 22) 0%, rgb(0, 17, 70) 36%, rgb(0, 0, 22) 81%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-login .form-wrapper {
+  width: 30%;
+  background-color: rgb(160, 120, 0);
+  border-radius: 20px;
+}
+.section-login .form-wrapper .laterais1 {
+  height: 30px;
+  background: rgb(0, 0, 4);
+  background: linear-gradient(0deg, rgb(0, 0, 4) 0%, rgb(3, 0, 38) 50%, rgb(0, 0, 4) 100%);
+  border: solid 2px black;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.section-login .form-wrapper .laterais2 {
+  height: 30px;
+  background: rgb(0, 0, 4);
+  background: linear-gradient(0deg, rgb(0, 0, 4) 0%, rgb(3, 0, 38) 50%, rgb(0, 0, 4) 100%);
+  border: solid 2px black;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.section-login .form-wrapper .form-option {
+  margin: 0, 5px;
+  text-align: center;
+  padding: 10px 0;
+  background: rgb(218, 0, 30);
+  background: linear-gradient(0deg, rgb(218, 0, 30) 0%, rgb(255, 0, 13) 50%, rgb(218, 0, 30) 100%);
+  color: white;
+}
+.section-login .form-wrapper .form-option h2 {
+  font-weight: 400;
+}
+.section-login .form-wrapper .form-login {
+  background: rgb(0, 0, 22);
+  background: linear-gradient(354deg, rgb(0, 0, 22) 0%, rgb(0, 17, 70) 36%, rgb(0, 0, 22) 81%);
+  height: 250px;
+}
+.section-login .form-wrapper .form-login .inputs {
+  text-align: center;
+  padding: 10px;
+  height: 100%;
+}
+.section-login .form-wrapper .form-login .inputs .flex-input {
+  display: flex;
+  flex-direction: column;
+}
+.section-login .form-wrapper .form-login .inputs .flex-input .block-input {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  border-style: outset;
+  border-color: #f0f0f0;
+  display: block;
+  padding: 10px 10px;
+  margin-top: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.section-login .form-wrapper .form-login .inputs .button-login {
+  background: rgb(218, 0, 30);
+  background: linear-gradient(0deg, rgb(218, 0, 30) 0%, rgb(255, 0, 13) 50%, rgb(218, 0, 30) 100%);
+  display: block;
+  margin: 20px auto;
+  padding: 10px 50px;
+  border: 1px outset #da001e;
+  color: white;
+  font-family: "Anek Latin";
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
