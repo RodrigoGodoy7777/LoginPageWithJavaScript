@@ -29,6 +29,9 @@ body {
   background-color: rgb(160, 120, 0);
   border-radius: 20px;
 }
+.section-login .form-wrapper .hidden {
+  display: none;
+}
 .section-login .form-wrapper .laterais1 {
   height: 30px;
   background: rgb(0, 0, 4);
@@ -52,9 +55,14 @@ body {
   background: rgb(218, 0, 30);
   background: linear-gradient(0deg, rgb(218, 0, 30) 0%, rgb(255, 0, 13) 50%, rgb(218, 0, 30) 100%);
   color: white;
+  cursor: pointer;
 }
 .section-login .form-wrapper .form-option h2 {
   font-weight: 400;
+}
+.section-login .form-wrapper .form-option:hover {
+  background: #a10016;
+  transition: all 700;
 }
 .section-login .form-wrapper .form-login {
   background: rgb(0, 0, 22);
@@ -62,26 +70,41 @@ body {
   height: 250px;
 }
 .section-login .form-wrapper .form-login .inputs {
-  text-align: center;
-  padding: 10px;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.section-login .form-wrapper .form-login .inputs .flex-input {
+.section-login .form-wrapper .form-login .inputs .flex-menu-centralizar {
+  width: 80%;
+}
+.section-login .form-wrapper .form-login .inputs .flex-menu-centralizar .flex-input {
   display: flex;
   flex-direction: column;
 }
-.section-login .form-wrapper .form-login .inputs .flex-input .block-input {
+.section-login .form-wrapper .form-login .inputs .flex-menu-centralizar .flex-input .block-input {
   background-color: #f0f0f0;
   border-radius: 10px;
   border-style: outset;
   border-color: #f0f0f0;
   display: block;
   padding: 10px 10px;
-  margin-top: 5px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-top: 15px;
 }
-.section-login .form-wrapper .form-login .inputs .button-login {
+.section-login .form-wrapper .form-login .inputs .flex-menu-centralizar p {
+  color: white;
+}
+.section-login .form-wrapper .form-login .inputs .flex-menu-centralizar a {
+  color: #da001e;
+}
+.section-login .form-wrapper .form-login .inputs .flex-menu-centralizar .label-checkbox {
+  color: white;
+  margin-left: 6px;
+}
+.section-login .form-wrapper .form-login .inputs .flex-menu-centralizar .check-input {
+  margin: 10px 2px;
+}
+.section-login .form-wrapper .form-login .inputs .flex-menu-centralizar .button-login {
   background: rgb(218, 0, 30);
   background: linear-gradient(0deg, rgb(218, 0, 30) 0%, rgb(255, 0, 13) 50%, rgb(218, 0, 30) 100%);
   display: block;
@@ -91,4 +114,77 @@ body {
   color: white;
   font-family: "Anek Latin";
   border-radius: 10px;
+  cursor: pointer;
+}
+.section-login .form-wrapper .form-login .inputs .flex-menu-centralizar .button-login:hover {
+  background: #a10016;
+  border: 1px outset #a10016;
+  transition: all 700;
+}
+.section-login .form-wrapper .form-cadastra {
+  background: rgb(0, 0, 22);
+  background: linear-gradient(354deg, rgb(0, 0, 22) 0%, rgb(0, 17, 70) 36%, rgb(0, 0, 22) 81%);
+  height: 320px;
+}
+.section-login .form-wrapper .form-cadastra .inputs {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-login .form-wrapper .form-cadastra .inputs .flex-menu-centralizar {
+  width: 80%;
+}
+.section-login .form-wrapper .form-cadastra .inputs .flex-menu-centralizar .flex-input {
+  display: flex;
+  flex-direction: column;
+}
+.section-login .form-wrapper .form-cadastra .inputs .flex-menu-centralizar .flex-input .block-input {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  border-style: outset;
+  border-color: #f0f0f0;
+  display: block;
+  padding: 10px 10px;
+  margin-top: 15px;
+}
+.section-login .form-wrapper .form-cadastra .inputs .flex-menu-centralizar .flex-input-cad {
+  display: flex;
+  justify-content: space-between;
+}
+.section-login .form-wrapper .form-cadastra .inputs .flex-menu-centralizar .flex-input-cad .block-input {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  border-style: outset;
+  border-color: #f0f0f0;
+  display: block;
+  padding: 10px 5px;
+  margin-top: 15px;
+}
+.section-login .form-wrapper .form-cadastra .inputs .flex-menu-centralizar .label-checkbox {
+  color: white;
+  margin-left: 6px;
+}
+.section-login .form-wrapper .form-cadastra .inputs .flex-menu-centralizar .check-input {
+  margin: 10px 2px;
+}
+.section-login .form-wrapper .form-cadastra .inputs .flex-menu-centralizar a {
+  color: #da001e;
+}
+.section-login .form-wrapper .form-cadastra .inputs .flex-menu-centralizar .button-login {
+  background: rgb(218, 0, 30);
+  background: linear-gradient(0deg, rgb(218, 0, 30) 0%, rgb(255, 0, 13) 50%, rgb(218, 0, 30) 100%);
+  display: block;
+  margin: 20px auto;
+  padding: 10px 50px;
+  border: 1px outset #da001e;
+  color: white;
+  font-family: "Anek Latin";
+  border-radius: 10px;
+  cursor: pointer;
+}
+.section-login .form-wrapper .form-cadastra .inputs .flex-menu-centralizar .button-login:hover {
+  background: #a10016;
+  border: 1px outset #a10016;
+  transition: all 700;
 }/*# sourceMappingURL=style.css.map */

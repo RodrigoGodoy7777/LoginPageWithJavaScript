@@ -13,31 +13,52 @@
 <body>
     <section class="section-login">
         <div class="form-wrapper">
-            <div class="laterais1"></div>
-            <div class="form-option">
+            <div class="form-option" id="optionButton1">
                 <h2>Login</h2>
             </div>
-            <div class="form-login">
+            <div class="form-login hidden" id="loginDiv">
                 <form action="" class="form-login">
                     <div class="inputs">
-                        <div class="flex-input">
-                            <input type="text" type="email" name="login" placeholder="Nome ou Email" class="block-input">
-                            <input type="password" name="senha" placeholder="Senha" class="block-input">
+                        <div class="flex-menu-centralizar">
+                            <div class="flex-input">
+                                <input type="text" type="email" name="login" placeholder="Nome ou Email" class="block-input">
+                                <input type="password" name="senha" placeholder="Senha" class="block-input">
+                            </div>
+                            <input type="checkbox" name="lembrar" class="check-input"><label for="lembrar" class="label-checkbox">Lembrar de mim</label>
+                            <br>
+                            <p>Esqueceu sua senha? <a href="#">Clique aqui!</a></p>
+                            <button type="submit" class="button-login">Login</button>
                         </div>
-                        <input type="checkbox" name="lembrar" class="check-input"><label for="lembrar">Salvar login</label>
-                        Esqueceu sua senha? <a href="#">Clique aqui!</a>
-                        <button type="submit" class="button-login">Login</button>
                     </div>
                 </form>
             </div>
-            <div class="form-option">
+            <div class="form-option" id="optionButton2">
                 <h2>Cadastre-se</h2>
             </div>
-            <div class="form-cadastra">
-
+            <div class="form-cadastra hidden" id="cadDiv">
+                <form action="" class="form-cadastra">
+                    <div class="inputs">
+                        <div class="flex-menu-centralizar">
+                            <div class="flex-input">
+                                <input type="text" name="nome" class="block-input" placeholder="Nome">
+                                <input type="email" name="email" class="block-input" placeholder="E-mail">
+                            </div>
+                            <div class="flex-input-cad">
+                                <input type="tel" name="Telefone" placeholder="Telefóne" class="block-input">
+                                <input type="date" name="Data de nascimento" class="block-input">
+                            </div>
+                            <input type="checkbox" name="Termos de privacidade" class="check-input">
+                            <label for="Termos de privacidade" class="label-checkbox">Eu aceito os <a href="#">termos de privacidade</a> lidos.</label>
+                            <br>
+                            <input type="checkbox" name="Anuncio Email" class="check-input">
+                            <label for="Anuncio Email" class="label-checkbox">Desejo receber novidades no meu email.</label>
+                            <button type="submit" class="button-login">Cadastrar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div class="laterais2"></div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
